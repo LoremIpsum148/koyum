@@ -40,13 +40,13 @@ Lorem Ipsum
 
 ## Product Backlog URL
 
-[Trello Board](https://trello.com/loremipsumakademi)
+[Trello Board](https://trello.com/b/65JamAlA/product-backlog)
 
 ---
 
 # Sprint 1
 
-- **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
+- **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog panosundan kartlara tıklandığında hikayelerin detayları okunabilir.
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
 
