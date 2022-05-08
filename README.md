@@ -65,7 +65,8 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Panoda, story tasklar
 ![Backlog 2](https://i.hizliresim.com/fdvqqhx.png) 
 
 
-- **Ürün Durumu**: Ekran görüntüleri:
+- **Ürün Durumu**: 
+- Ekran görüntüleri:
   ![Screenshot 1](https://i.hizliresim.com/ai2xxwk.png)
   
   ![Screenshot 2](https://i.hizliresim.com/tcv5y2w.png)
