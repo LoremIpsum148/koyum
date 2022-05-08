@@ -56,7 +56,7 @@ Lorem Ipsum
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Panoda, story taskları; yapılacaklar, beklemede, devam ediyor ve tamamlandı şeklinde düzenlenmiştir. 
 - **Burndown Chart**: 
-- [Burndown Chart](https://i.hizliresim.com/8a2tidi.png)
+- ![Burndown Chart](https://i.hizliresim.com/8a2tidi.png)
 
 
 - **Daily Scrum**: Daily Scrum toplantılarının  Google Meet ve Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: 
