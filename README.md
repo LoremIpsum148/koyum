@@ -55,7 +55,7 @@ Lorem Ipsum
 - **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Panoda, story taskları; yapılacaklar, beklemede, devam ediyor ve tamamlandı şeklinde düzenlenmiştir. 
-- **Burndown Chart**: Screenshot:
+- **Burndown Chart**: 
 - [Burndown Chart](https://i.hizliresim.com/8a2tidi.png)
 
 
