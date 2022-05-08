@@ -55,6 +55,9 @@ Lorem Ipsum
 - **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Panoda, story taskları; yapılacaklar, beklemede, devam ediyor ve tamamlandı şeklinde düzenlenmiştir. 
+- **Burndown Chart**: Screenshot:
+- [Burndown Chart](https://i.hizliresim.com/8a2tidi.png)
+
 
 - **Daily Scrum**: Daily Scrum toplantılarının  Google Meet ve Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: 
 - [Sprint 1 Daily Scrum Chats](https://docs.google.com/document/d/17S1QarkCarrh7e1b-AQMl7rOKw9qpJ4Cb8xHhcl1tYA/edit?usp=sharing)
@@ -90,6 +93,7 @@ Sprint Review katılımcıları:
 
 -**Diğer Notlar**: Toplantılar
 - ![Backlog 1](https://i.hizliresim.com/4onfjiv.png) 
+
 
 ---
 
