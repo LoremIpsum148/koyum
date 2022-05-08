@@ -89,7 +89,7 @@ Sprint Review katılımcıları:
   - Arayüz tasarım fikirleri geliştirilecek.
 
 -**Diğer Notlar**: Toplantılar
-- ![Screenshot 1] (https://i.hizliresim.com/4onfjiv.png) 
+- ![Backlog 1](https://i.hizliresim.com/4onfjiv.png) 
 
 ---
 
