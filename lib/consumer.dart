@@ -46,15 +46,14 @@ class _MyHomePageState extends State<MyHomePage> {
         // title: Text(title),
       ), */
       body: Center(
-        child: Container(
-          color: Colors.amber,
-          /*    decoration: BoxDecoration(
+        child: Container(color: Colors.blue
+            /*    decoration: BoxDecoration(
             image: DecorationImage(
               image: AssetImage(""),
               fit: BoxFit.cover,
             ),
           ), */
-        ),
+            ),
       ),
     );
   }
