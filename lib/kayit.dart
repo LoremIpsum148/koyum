@@ -11,6 +11,7 @@ class kayit extends StatelessWidget {
     return MaterialApp(
         title: 'köyüm',
         home: Scaffold(
+
             /*      bottomNavigationBar: Container(
               height: 60,
               //color: Colors.black12,
@@ -32,9 +33,9 @@ class kayit extends StatelessWidget {
                 ),
               ),
             ), */
+
             body: Container(
-                //color: Color.fromARGB(255, 207, 222, 233),
-                height: 600,
+                color: Color.fromRGBO(242, 239, 234, 1),
                 child: Wrap(
                   direction: Axis.horizontal,
                   children: [
@@ -45,12 +46,41 @@ class kayit extends StatelessWidget {
                               image: AssetImage('assets/images/koyum.png'))),
                     ),
                     Container(
-                      padding: EdgeInsets.only(top: 20, bottom: 30, left: 100),
-                      child: Text('Hoş Geldin Çevreci!'),
+                      padding: EdgeInsets.only(top: 10, bottom: 10, left: 100),
+                      child: Text('Merhaba Çevreci!',
+                          style: TextStyle(
+                              fontFamily: 'Quicksand',
+                              fontSize: 18,
+                              color: Color.fromARGB(255, 4, 46, 5))),
+                    ),
+                    Container(
+                      padding: EdgeInsets.only(bottom: 30, left: 80),
+                      child: Text(
+                        'Ekosisteme Hoş Geldin!',
+                        style: TextStyle(
+                            fontFamily: 'Quicksand',
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18,
+                            color: Color.fromARGB(255, 4, 46, 5)),
+                      ),
+                    ),
+                    Container(
+                      padding: EdgeInsets.only(
+                          top: 2, bottom: 3, left: 30, right: 50),
+                      child: Text(
+                        'Hayalindeki çiftçiyi mi arıyorsun, yoksa ürünü ekecek çiftçi misin?',
+                        style: TextStyle(
+                            fontFamily: 'Quicksand',
+                            fontWeight: FontWeight.w400,
+                            fontSize: 16,
+                            color: Color.fromARGB(255, 4, 46, 5)),
+                        softWrap: true,
+                        textAlign: TextAlign.left,
+                      ),
                     ),
                     Container(
                       margin: EdgeInsets.only(
-                          left: 20, right: 5, top: 5, bottom: 30),
+                          left: 20, right: 5, top: 20, bottom: 20),
                       width: 300,
                       height: 180,
                       child: Row(
@@ -66,8 +96,10 @@ class kayit extends StatelessWidget {
                             height: 55,
                             child: Text(
                               'Çiftçi Olarak Katıl',
-                              style:
-                                  TextStyle(fontSize: 18, color: Colors.white),
+                              style: TextStyle(
+                                  fontSize: 18,
+                                  color: Colors.white,
+                                  fontFamily: 'Quicksand'),
                             ),
                             decoration: BoxDecoration(
                               boxShadow: [
@@ -119,8 +151,10 @@ class kayit extends StatelessWidget {
                             height: 55,
                             child: Text(
                               'Tüketici Olarak Katıl',
-                              style:
-                                  TextStyle(fontSize: 18, color: Colors.white),
+                              style: TextStyle(
+                                  fontSize: 18,
+                                  color: Colors.white,
+                                  fontFamily: 'Quicksand'),
                             ),
                             decoration: BoxDecoration(
                               boxShadow: [
