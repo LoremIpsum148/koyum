@@ -41,10 +41,26 @@ class consumer extends StatelessWidget {
                   direction: Axis.horizontal,
                   children: [
                     Container(
-                      padding: EdgeInsets.only(top: 60, bottom: 70),
+                      padding: EdgeInsets.only(top: 100, bottom: 70),
                       decoration: BoxDecoration(
                           image: DecorationImage(
-                              image: AssetImage('assets/images/koyum.png'))),
+                              image: AssetImage('images/koyum.png'))),
+                    ),
+                    Container(
+                      child: Padding(
+                        padding: const EdgeInsets.only(
+                            left: 50, right: 80.0, bottom: 20),
+                        child: Text(
+                          'Hoş Geldin!',
+                          style: TextStyle(
+                              fontFamily: 'Quicksand',
+                              fontWeight: FontWeight.w600,
+                              fontSize: 18,
+                              color: Color.fromARGB(255, 4, 46, 5)),
+                          softWrap: true,
+                          textAlign: TextAlign.left,
+                        ),
+                      ),
                     ),
                     FlatButton(
                       onPressed: () {},
