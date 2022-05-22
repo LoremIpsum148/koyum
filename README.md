@@ -99,6 +99,51 @@ Sprint Review katılımcıları:
 
 # Sprint 2
 
+- **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog panosundan kartlara tıklandığında hikayelerin detayları okunabilir.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 120 Puan
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 1.sprintte 100 puan tamamlandı, 2.sprintte 120 puan, 3.sprintte 160 puan tamamlanması planlandı.
+
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+
+Story'ler yapılacak işlere (task'lere) bölünmüştür. Panoda, story taskları; yapılacaklar, beklemede, devam ediyor ve tamamlandı şeklinde düzenlenmiştir. 
+
+- **Daily Scrum**: Daily Scrum toplantılarının Google Meet ve Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: 
+- [Sprint 2 Daily Scrum Chats](https://docs.google.com/document/d/1ZVBHAHvcuL4JlHYhGKRrMIXvDpBLlLZ6VaUaqGhYjbs/edit)
+
+- **Sprint board update**: Sprint board screenshotları: 
+![Backlog 1]() 
+
+![Backlog 2]() 
+
+
+- **Ürün Durumu**:  Ekran görüntüleri:
+
+  ![Screenshot 1]()
+  
+  ![Screenshot 2]()
+  
+  ![Screenshot 3]()
+
+- **Sprint Review**: 
+Alınan kararlar: Sayfalar daha kullanıcı dostu hale getirilecek. UI tasarımının son haline kavuşturulup koda dökülmesi için görev dağılımı yapılacak. 
+
+Sprint Review katılımcıları: 
+- Defne Erkan
+- Mert A. Yılmaz
+- Güray Kaleli
+- İpek Özbek
+- Serhat Çeker 
+
+- **Sprint Retrospective:**
+  - Takım içindeki kod kısmında görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.
+  - Github'da, her branchten gelen push'ların, haftalık toplantılarda değerlendirilmesi kararı alınmıştır.
+  - Arayüz tasarım fikirleri geliştirilecek.
+
+-**Diğer Notlar**: Toplantılar
+- ![Backlog 1]() 
+
 
 ---
 
