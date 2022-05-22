@@ -149,7 +149,7 @@ Sprint Review katılımcıları:
   - Bir sonraki sprintte daha sık toplantı yapılacaktır. 
 
 -**Diğer Notlar**: 
-- ![Backlog 2](https://trello.com/b/wFbNPE6k/toplant%C4%B1-notlar%C4%B1) 
+- [Trello Board](https://trello.com/b/5sxaBGte/2-sprint-product-backlog)
 
 
 ---
