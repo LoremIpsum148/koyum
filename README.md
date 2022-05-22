@@ -40,7 +40,7 @@ Lorem Ipsum
 
 ## Product Backlog URL
 
-[Trello Board](https://trello.com/loremipsumakademi)
+[Trello Board](https://trello.com/b/5sxaBGte/2-sprint-product-backlog)
 
 ---
 
@@ -99,11 +99,11 @@ Sprint Review katılımcıları:
 
 # Sprint 2
 
-- **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog panosundan kartlara tıklandığında hikayelerin detayları okunabilir.
+- **Sprint Notları**: User Story'ler product 2. Sprint backlog'ların içine yazılmıştır. Product backlog panosundan kartlara tıklandığında hikayelerin detayları okunabilir.
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 120 Puan
+- **Sprint içinde tamamlanması tahmin edilen puan**: 140 Puan
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 1.sprintte 100 puan tamamlandı, 2.sprintte 120 puan, 3.sprintte 160 puan tamamlanması planlandı.
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 1.sprintte 100 puan tamamlandı, 2.sprintte 140 puan, 3.sprintte 140 puan tamamlanması planlandı.
 
 - **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
 
@@ -113,36 +113,43 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Panoda, story tasklar
 - [Sprint 2 Daily Scrum Chats](https://docs.google.com/document/d/1ZVBHAHvcuL4JlHYhGKRrMIXvDpBLlLZ6VaUaqGhYjbs/edit)
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1]() 
+![Backlog 1](https://i.hizliresim.com/n3ltstv.png) 
 
-![Backlog 2]() 
+![Backlog 2](https://i.hizliresim.com/monlql1.png)
+
+![Backlog 3](https://i.hizliresim.com/qi7v611.png)
+
+![Backlog 4](https://i.hizliresim.com/ehk7esb.png)
+
+
 
 
 - **Ürün Durumu**:  Ekran görüntüleri:
 
-  ![Screenshot 1]()
+  ![Screenshot 1](https://i.hizliresim.com/lxmc0zn.jpeg)
   
-  ![Screenshot 2]()
+  ![Screenshot 2](https://i.hizliresim.com/38k76d2.jfif)
   
-  ![Screenshot 3]()
+  ![Screenshot 3](https://i.hizliresim.com/tezlkci.jfif)
 
 - **Sprint Review**: 
-Alınan kararlar: Sayfalar daha kullanıcı dostu hale getirilecek. UI tasarımının son haline kavuşturulup koda dökülmesi için görev dağılımı yapılacak. 
+Alınan kararlar: 3. sprintin ilk haftasına kadar ürünün sayfalarının tasarımı tamamlanacak, son haftasında ise uygulama tüm özellikleriyle tamamlanacaktır. 
+
 
 Sprint Review katılımcıları: 
 - Defne Erkan
 - Mert A. Yılmaz
-- Güray Kaleli
+- Güray Kaleli 
 - İpek Özbek
 - Serhat Çeker 
 
 - **Sprint Retrospective:**
-  - Takım içindeki kod kısmında görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.
-  - Github'da, her branchten gelen push'ların, haftalık toplantılarda değerlendirilmesi kararı alınmıştır.
-  - Arayüz tasarım fikirleri geliştirilecek.
+  - Kullanıcı datalarının class'ları oluşturuldu.
+  - Görev dağılımları başarılı bir şekilde gerçekleştirildi.
+  - Bir sonraki sprintte daha sık toplantı yapılacaktır. 
 
--**Diğer Notlar**: Toplantılar
-- ![Backlog 2](https://www.hizliresim.com/jezslzs) 
+-**Diğer Notlar**: 
+- ![Backlog 2](https://trello.com/b/wFbNPE6k/toplant%C4%B1-notlar%C4%B1) 
 
 
 ---
