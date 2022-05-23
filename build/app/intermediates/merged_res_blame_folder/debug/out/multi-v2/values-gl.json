@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/guraykaleli/Documents/koyum/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml",
+            "outputFile": "C:\\Users\\Mert\\Desktop\\koyumapp\\koyum\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gl\\values-gl.xml",
             "map": [
                 {
-                    "source": "/Users/guraykaleli/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/res/values-gl/values-gl.xml",
+                    "source": "C:\\Users\\Mert\\.gradle\\caches\\transforms-3\\c80a7945d89c3e853cfcdbc4a0da8557\\transformed\\core-1.6.0\\res\\values-gl\\values-gl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
