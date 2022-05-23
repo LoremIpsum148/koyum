@@ -109,6 +109,9 @@ Sprint Review katılımcıları:
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Panoda, story taskları; yapılacaklar, beklemede, devam ediyor ve tamamlandı şeklinde düzenlenmiştir. 
 
+- **2. Sprint Burndown Chart**: 
+- ![Burndown Chart](https://i.hizliresim.com/9ieegnd.jpeg)
+
 - **Daily Scrum**: Daily Scrum toplantılarının Google Meet ve Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: 
 - [Sprint 2 Daily Scrum Chats](https://docs.google.com/document/d/1ZVBHAHvcuL4JlHYhGKRrMIXvDpBLlLZ6VaUaqGhYjbs/edit)
 
