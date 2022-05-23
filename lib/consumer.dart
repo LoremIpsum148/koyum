@@ -59,7 +59,7 @@ class consumer extends StatelessWidget {
                       onPressed: () {},
                       child: Container(
                         margin: EdgeInsets.only(
-                            left: 20, right: 5, top: 5, bottom: 30),
+                            left: 20, right: 5, top: 0, bottom: 10),
                         width: 300,
                         height: 180,
                         child: Row(
@@ -177,7 +177,7 @@ class consumer extends StatelessWidget {
                       onPressed: () {},
                       child: Container(
                         margin: EdgeInsets.only(
-                            left: 20, right: 5, top: 5, bottom: 30),
+                            left: 20, right: 5, top: 15, bottom: 40),
                         width: 300,
                         height: 180,
                         child: Row(

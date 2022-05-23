@@ -1,12 +1,12 @@
-#Thu May 19 16:18:01 GMT+02:00 2022
+#Mon May 23 23:49:22 TRT 2022
 path.3=1/classes.dex
 path.2=13/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.3=C\:\\src\\projects\\koyum\\koyum\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-base.2=C\:\\src\\projects\\koyum\\koyum\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
-base.1=C\:\\src\\projects\\koyum\\koyum\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=C\:\\src\\projects\\koyum\\koyum\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.3=C\:\\Users\\Mert\\Desktop\\koyumapp\\koyum\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.2=C\:\\Users\\Mert\\Desktop\\koyumapp\\koyum\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.1=C\:\\Users\\Mert\\Desktop\\koyumapp\\koyum\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=C\:\\Users\\Mert\\Desktop\\koyumapp\\koyum\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\src\\projects\\koyum\\koyum\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-th\\values-th.xml",
+            "outputFile": "C:\\Users\\Mert\\Desktop\\koyumapp\\koyum\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-th\\values-th.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bykan\\.gradle\\caches\\transforms-3\\c80a7945d89c3e853cfcdbc4a0da8557\\transformed\\core-1.6.0\\res\\values-th\\values-th.xml",
+                    "source": "C:\\Users\\Mert\\.gradle\\caches\\transforms-3\\c80a7945d89c3e853cfcdbc4a0da8557\\transformed\\core-1.6.0\\res\\values-th\\values-th.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
