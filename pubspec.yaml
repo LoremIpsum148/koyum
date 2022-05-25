@@ -81,6 +81,10 @@ flutter:
     - assets/images/makine.jpg
     - assets/images/portakal.jpg
     - assets/images/ilan.jpg
+<<<<<<< HEAD
+=======
+    - assets/images/tarla.jpg
+>>>>>>> 322de1a0047f87d742c22fa0860b061c4c13dced
 
 
     
