@@ -22,11 +22,11 @@ class SigninFarmer extends StatelessWidget {
               width: 300,
               decoration: BoxDecoration(
                   image:
-                      DecorationImage(image: AssetImage('images/koyum.png'))),
+                      DecorationImage(image: AssetImage('assets/images/koyum.png'))),
             ),
             Container(
               child: Text(
-                'Kolayca kayıt ol, üretmeye başla',
+                'Kolayca kayıt ol, üretmeye başla!',
                 style: TextStyle(
                     fontFamily: 'Quicksand',
                     fontWeight: FontWeight.w400,
@@ -38,9 +38,9 @@ class SigninFarmer extends StatelessWidget {
             ),
             Container(
               child: Padding(
-                padding: const EdgeInsets.only(left: 0.0, top: 55, right: 110),
+                padding: const EdgeInsets.only(left: 110, top: 55, right: 110),
                 child: Text(
-                  'Email ile kaydol',
+                  'Lütfen bilgilerinizi giriniz:',
                   style: TextStyle(
                       fontFamily: 'Quicksand',
                       fontWeight: FontWeight.w700,
@@ -58,12 +58,12 @@ class SigninFarmer extends StatelessWidget {
                 child: TextFormField(
                   decoration: InputDecoration(
                       border: OutlineInputBorder(),
-                      labelText: 'Email',
+                      labelText: 'E-Mail Adresiniz',
                       hintStyle: TextStyle(fontFamily: 'Quicksand'),
-                      hintText: 'Email adresinizi giriniz'),
+                      hintText: 'E-Mail adresinizi giriniz'),
                   validator: (String? value) {
                     if (value == null || value.isEmpty) {
-                      return 'Geçerli bir email giriniz';
+                      return 'Geçerli bir e-mail adresi giriniz!';
                     }
                     return null;
                   },
@@ -78,9 +78,9 @@ class SigninFarmer extends StatelessWidget {
                   decoration: InputDecoration(
                       errorStyle: TextStyle(color: Colors.orange),
                       border: OutlineInputBorder(),
-                      labelText: 'Şifre',
+                      labelText: 'Şifrenizi giriniz',
                       hintStyle: TextStyle(fontFamily: 'Quicksand'),
-                      hintText: 'Şifre oluşturunuz'),
+                      hintText: 'Şifre oluşturunuz!'),
                 ),
               ),
             ),
@@ -94,7 +94,7 @@ class SigninFarmer extends StatelessWidget {
                       primary: Color.fromARGB(255, 221, 73, 14)),
                   onPressed: () {},
                   child: Text(
-                    'Devam et',
+                    'Kayıt Ol',
                     style: TextStyle(
                         fontFamily: 'Quicksand',
                         fontWeight: FontWeight.w700,
