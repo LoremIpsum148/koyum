@@ -2,7 +2,6 @@
 // ignore_for_file: deprecated_member_use
 
 import 'package:flutter/material.dart';
-//import 'package:koyum/Farmer/farmer.dart';
 
 void main() {
   runApp(Discover());
