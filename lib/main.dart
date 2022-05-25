@@ -1,19 +1,43 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
+import 'package:koyum/Consumer/consumer.dart';
+import 'package:koyum/LoginAndSign/login.dart';
+import 'package:koyum/LoginAndSign/signin_farmer.dart';
+import 'LoginAndSign/kayit.dart';
+
 
 void main() {
   runApp(LogUp());
 }
 
 class LogUp extends StatelessWidget {
-  const LogUp({Key? key}) : super(key: key);
-
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'köyüm log up',
-      home: Scaffold(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+      ),
+      home: logUp(),
+    );
+  }
+}
+
+class logUp extends StatefulWidget {
+  const logUp({Key? key}) : super(key: key);
+
+  @override
+  State<logUp> createState() => _logUpState();
+}
+
+
+class _logUpState extends State<logUp> {
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
         body: Container(
           height: 1000,
           width: 800,
@@ -50,7 +74,11 @@ class LogUp extends StatelessWidget {
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
                         primary: Color.fromARGB(255, 221, 73, 14)),
-                    onPressed: () {},
+                    onPressed: () {
+
+                      Navigator.pushReplacement(context, MaterialPageRoute(builder:(context) => kayit()));
+
+                    },
                     child: const Text('Ekosisteme Katıl',
                         style: TextStyle(color: Colors.white),
                         textAlign: TextAlign.start),
@@ -65,7 +93,12 @@ class LogUp extends StatelessWidget {
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
                         primary: Color.fromARGB(255, 221, 73, 14)),
-                    onPressed: () {},
+                    onPressed: () {
+
+                      Navigator.push(context, MaterialPageRoute(builder:(context) => login()));
+
+
+                    },
                     child: const Text('Giriş Yap',
                         style: TextStyle(color: Colors.white),
                         textAlign: TextAlign.start),
@@ -76,7 +109,11 @@ class LogUp extends StatelessWidget {
               // padding: const EdgeInsets.only(bottom: 5, top: 165),
               Container(
                 child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+
+                    //Navigator.push(context, MaterialPageRoute(builder: (context) => signinFarmer()));
+
+                  },
                   child: const Text(
                     'Ekosistemi Keşfet',
                     textAlign: TextAlign.end,
@@ -95,7 +132,6 @@ class LogUp extends StatelessWidget {
                 fit: BoxFit.fitWidth),
           ),
         ),
-      ),
     );
   }
 }

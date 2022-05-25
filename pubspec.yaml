@@ -73,11 +73,17 @@ flutter:
   assets:
     - images/benimtarlam.png
     - images/icon1.png
-    - images/koyum.png
+    - assets/images/koyum.png
     - assets/images/toprak2.jpg
     - assets/images/ciftci.jpg
     - assets/images/tuketici.jpg
     - assets/images/logo.png
+    - assets/images/makine.jpg
+    - assets/images/portakal.jpg
+    - assets/images/ilan.jpg
+    - assets/images/tarla.jpg
+
+
     
 
   # An image asset can refer to one or more resolution-specific "variants", see

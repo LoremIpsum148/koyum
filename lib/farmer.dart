@@ -23,13 +23,13 @@ class consumer extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: <Widget>[
                     Icon(Icons.person,
-                        size: 40, color: Color.fromARGB(255, 229, 117, 12)),
+                        size: 30, color: Color.fromARGB(255, 229, 117, 12)),
                     Icon(Icons.home,
-                        size: 40, color: Color.fromARGB(255, 229, 117, 12)),
+                        size: 30, color: Color.fromARGB(255, 229, 117, 12)),
                     Icon(Icons.settings,
-                        size: 40, color: Color.fromARGB(255, 229, 117, 12)),
+                        size: 30, color: Color.fromARGB(255, 229, 117, 12)),
                     Icon(Icons.message,
-                        size: 40, color: Color.fromARGB(255, 229, 117, 12))
+                        size: 30, color: Color.fromARGB(255, 229, 117, 12))
                   ],
                 ),
               ),
@@ -44,14 +44,14 @@ class consumer extends StatelessWidget {
                       padding: EdgeInsets.only(top: 100, bottom: 70),
                       decoration: BoxDecoration(
                           image: DecorationImage(
-                              image: AssetImage('images/koyum.png'))),
+                              image: AssetImage('assets/images/koyum.png'))),
                     ),
                     Container(
                       child: Padding(
                         padding: const EdgeInsets.only(
                             left: 50, right: 80.0, bottom: 20),
                         child: Text(
-                          'Hoş Geldin!',
+                          'Hoş Geldin İpek!',
                           style: TextStyle(
                               fontFamily: 'Quicksand',
                               fontWeight: FontWeight.w600,
@@ -66,7 +66,7 @@ class consumer extends StatelessWidget {
                       onPressed: () {},
                       child: Container(
                         margin: EdgeInsets.only(
-                            left: 20, right: 5, top: 5, bottom: 30),
+                            left: 20, right: 5, top: 5, bottom: 10),
                         width: 300,
                         height: 180,
                         child: Row(
@@ -81,7 +81,7 @@ class consumer extends StatelessWidget {
                               width: 300,
                               height: 55,
                               child: Text(
-                                'Tüketici Olarak Katıl',
+                                'Ekosistemdeki Diğer Çiftçiler',
                                 style: TextStyle(
                                     fontSize: 18,
                                     color: Colors.white,
@@ -114,7 +114,7 @@ class consumer extends StatelessWidget {
                               )
                             ],
                             image: DecorationImage(
-                                image: AssetImage('assets/images/tuketici.jpg'),
+                                image: AssetImage('assets/images/makine.jpg'),
                                 fit: BoxFit.cover),
                             color: Color.fromARGB(255, 221, 73, 14),
                             borderRadius:
@@ -140,7 +140,7 @@ class consumer extends StatelessWidget {
                               width: 300,
                               height: 55,
                               child: Text(
-                                'Çiftçi Olarak Katıl',
+                                'Profilini Oluştur',
                                 style: TextStyle(
                                     fontSize: 18,
                                     color: Colors.white,
@@ -173,7 +173,7 @@ class consumer extends StatelessWidget {
                               )
                             ],
                             image: DecorationImage(
-                                image: AssetImage('assets/images/toprak2.jpg'),
+                                image: AssetImage('assets/images/ciftci.jpg'),
                                 fit: BoxFit.cover),
                             color: Color.fromARGB(255, 221, 73, 14),
                             borderRadius:
@@ -184,7 +184,7 @@ class consumer extends StatelessWidget {
                       onPressed: () {},
                       child: Container(
                         margin: EdgeInsets.only(
-                            left: 20, right: 5, top: 5, bottom: 30),
+                            left: 20, right: 5, top: 5, bottom: 40),
                         width: 300,
                         height: 180,
                         child: Row(
@@ -199,7 +199,7 @@ class consumer extends StatelessWidget {
                               width: 300,
                               height: 55,
                               child: Text(
-                                'Tüketici Olarak Katıl',
+                                'İlan Oluştur',
                                 style: TextStyle(
                                     fontSize: 18,
                                     color: Colors.white,
@@ -232,7 +232,7 @@ class consumer extends StatelessWidget {
                               )
                             ],
                             image: DecorationImage(
-                                image: AssetImage('assets/images/tuketici.jpg'),
+                                image: AssetImage('assets/images/ilan.jpg'),
                                 fit: BoxFit.cover),
                             color: Color.fromARGB(255, 221, 73, 14),
                             borderRadius:
