@@ -34,7 +34,7 @@ class kayit extends StatelessWidget {
                               color: Color.fromARGB(255, 4, 46, 5))),
                     ),
                     Container(
-                      padding: EdgeInsets.only(bottom: 30, left: 80),
+                      padding: EdgeInsets.only(bottom: 30, left: 100),
                       child: Text(
                         'Ekosisteme Hoş Geldin!',
                         style: TextStyle(
