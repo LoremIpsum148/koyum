@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Mert\\Desktop\\koyumapp\\koyum\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
+            "outputFile": "C:\\Users\\ipek\\Desktop\\koyum-app\\koyum\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Mert\\.gradle\\caches\\transforms-3\\c80a7945d89c3e853cfcdbc4a0da8557\\transformed\\core-1.6.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "source": "C:\\Users\\ipek\\.gradle\\caches\\transforms-3\\c80a7945d89c3e853cfcdbc4a0da8557\\transformed\\core-1.6.0\\res\\values-en-rGB\\values-en-rGB.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

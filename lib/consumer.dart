@@ -47,7 +47,8 @@ class consumer extends StatelessWidget {
                               image: AssetImage('assets/images/koyum.png'))),
                     ),
                     Container(
-                      padding: const EdgeInsets.only(top: 10, bottom: 25, left: 50),
+                      padding:
+                          const EdgeInsets.only(top: 10, bottom: 25, left: 50),
                       child: Text('Hoş Geldin İpek!',
                           style: TextStyle(
                               fontFamily: 'Quicksand',
@@ -192,7 +193,7 @@ class consumer extends StatelessWidget {
                               width: 300,
                               height: 55,
                               child: Text(
-                                'Ürününü Seç',
+                                'Profilini Oluştur',
                                 style: TextStyle(
                                     fontSize: 18,
                                     color: Colors.white,
