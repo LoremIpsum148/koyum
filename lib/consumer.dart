@@ -2,6 +2,7 @@
 // ignore_for_file: deprecated_member_use
 
 import 'package:flutter/material.dart';
+import 'package:koyum/Constant/Color_constant.dart';
 
 void main() {
   runApp(consumer());
@@ -23,20 +24,20 @@ class consumer extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: <Widget>[
                     Icon(Icons.person,
-                        size: 30, color: Color.fromARGB(255, 229, 117, 12)),
+                        size: 30, color: ColorConstany.MetallicOrange),
                     Icon(Icons.home,
-                        size: 30, color: Color.fromARGB(255, 229, 117, 12)),
+                        size: 30, color: ColorConstany.MetallicOrange),
                     Icon(Icons.settings,
-                        size: 30, color: Color.fromARGB(255, 229, 117, 12)),
+                        size: 30, color: ColorConstany.MetallicOrange),
                     Icon(Icons.message,
-                        size: 30, color: Color.fromARGB(255, 229, 117, 12))
+                        size: 30, color: ColorConstany.MetallicOrange),
                   ],
                 ),
               ),
             ),
             body: SingleChildScrollView(
               child: Container(
-                color: Color.fromRGBO(242, 239, 234, 1),
+                color: ColorConstany.Isabelline,
                 child: Wrap(
                   direction: Axis.horizontal,
                   children: [
@@ -53,7 +54,7 @@ class consumer extends StatelessWidget {
                               fontFamily: 'Quicksand',
                               fontWeight: FontWeight.w600,
                               fontSize: 20,
-                              color: Color.fromARGB(255, 4, 46, 5))),
+                              color: ColorConstany.DarkGreen)),
                     ),
                     FlatButton(
                       onPressed: () {},
@@ -92,7 +93,7 @@ class consumer extends StatelessWidget {
                                 borderRadius: BorderRadius.only(
                                     bottomLeft: Radius.circular(20),
                                     bottomRight: Radius.circular(20)),
-                                color: Color.fromARGB(255, 221, 73, 14),
+                                color: ColorConstany.Flame,
                               ),
                             ),
                           ],
@@ -109,7 +110,7 @@ class consumer extends StatelessWidget {
                             image: DecorationImage(
                                 image: AssetImage('assets/images/makine.jpg'),
                                 fit: BoxFit.cover),
-                            color: Color.fromARGB(255, 221, 73, 14),
+                            color: ColorConstany.Flame,
                             borderRadius:
                                 BorderRadius.all(Radius.circular(30))),
                       ),
@@ -151,7 +152,7 @@ class consumer extends StatelessWidget {
                                 borderRadius: BorderRadius.only(
                                     bottomLeft: Radius.circular(20),
                                     bottomRight: Radius.circular(20)),
-                                color: Color.fromARGB(255, 221, 73, 14),
+                                color: ColorConstany.Flame,
                               ),
                             ),
                           ],
@@ -168,7 +169,7 @@ class consumer extends StatelessWidget {
                             image: DecorationImage(
                                 image: AssetImage('assets/images/ciftci.jpg'),
                                 fit: BoxFit.cover),
-                            color: Color.fromARGB(255, 221, 73, 14),
+                            color: ColorConstany.Flame,
                             borderRadius:
                                 BorderRadius.all(Radius.circular(30))),
                       ),
@@ -210,7 +211,7 @@ class consumer extends StatelessWidget {
                                 borderRadius: BorderRadius.only(
                                     bottomLeft: Radius.circular(20),
                                     bottomRight: Radius.circular(20)),
-                                color: Color.fromARGB(255, 221, 73, 14),
+                                color: ColorConstany.Flame,
                               ),
                             ),
                           ],
@@ -227,7 +228,7 @@ class consumer extends StatelessWidget {
                             image: DecorationImage(
                                 image: AssetImage('assets/images/portakal.jpg'),
                                 fit: BoxFit.cover),
-                            color: Color.fromARGB(255, 221, 73, 14),
+                            color: ColorConstany.Flame,
                             borderRadius:
                                 BorderRadius.all(Radius.circular(30))),
                       ),
