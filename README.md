@@ -180,22 +180,9 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Panoda, story tasklar
 ![Backlog 3](https://i.hizliresim.com/8rpwe78.jpg)
 
 
-- **Ürün Durumu**:  Ekran görüntüleri:
-
-  ![Screenshot 1]()
-  
-  ![Screenshot 2]()
-  
-  ![Screenshot 3]()
-
 - **Sprint Retrospective:**
   - Ürün tamamlandı, teslime hazır hale getirildi.
   - Ürünün tanıtım videosu hazırlandı.
   - Akademi mezuniyeti sonrası, ekip üyelerinin gönüllülüğüne bağlı olarak ürünün geliştirilmeye devam edilmesine karar verildi. 
-
--**Diğer Notlar**: 
-- [Trello Board]()
-
-
 
 ---
