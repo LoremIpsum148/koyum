@@ -173,7 +173,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Panoda, story tasklar
 - [Sprint 3 Daily Scrum Chats](https://docs.google.com/document/d/1Qp4W73zpPUWgUi1WIvuniDtf-OIIbjADezdQsAge2Lk/edit)
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://i.hizliresim.com/s8f0c9n.jpg) 
+![Backlog 1](https://i.hizliresim.com/4j1jbb4.png) 
 
 ![Backlog 2](https://i.hizliresim.com/m7y32z3.jpg)
 
