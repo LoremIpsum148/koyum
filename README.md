@@ -173,39 +173,28 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Panoda, story tasklar
 - [Sprint 3 Daily Scrum Chats](https://docs.google.com/document/d/1Qp4W73zpPUWgUi1WIvuniDtf-OIIbjADezdQsAge2Lk/edit)
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://www.hizliresim.com/s8f0c9n) 
+![Backlog 1](https://i.hizliresim.com/s8f0c9n.jpg) 
 
-![Backlog 2](https://www.hizliresim.com/m7y32z3)
+![Backlog 2](https://i.hizliresim.com/m7y32z3.jpg)
 
-![Backlog 3](https://www.hizliresim.com/8rpwe78)
+![Backlog 3](https://i.hizliresim.com/8rpwe78.jpg)
 
 
 - **Ürün Durumu**:  Ekran görüntüleri:
 
-  ![Screenshot 1](https://i.hizliresim.com/lxmc0zn.jpeg)
+  ![Screenshot 1]()
   
-  ![Screenshot 2](https://i.hizliresim.com/38k76d2.jfif)
+  ![Screenshot 2]()
   
-  ![Screenshot 3](https://i.hizliresim.com/tezlkci.jfif)
-
-- **Sprint Review**: 
-Alınan kararlar: 3. sprintin ilk haftasına kadar ürünün sayfalarının tasarımı tamamlanacak, son haftasında ise uygulama tüm özellikleriyle tamamlanacaktır. 
-
-
-Sprint Review katılımcıları: 
-- Defne Erkan
-- Mert A. Yılmaz
-- Güray Kaleli 
-- İpek Özbek
-- Serhat Çeker 
+  ![Screenshot 3]()
 
 - **Sprint Retrospective:**
-  - Kullanıcı datalarının class'ları oluşturuldu.
-  - Görev dağılımları başarılı bir şekilde gerçekleştirildi.
-  - Bir sonraki sprintte daha sık toplantı yapılacaktır. 
+  - Ürün tamamlandı, teslime hazır hale getirildi.
+  - Ürünün tanıtım videosu hazırlandı.
+  - Akademi mezuniyeti sonrası, ekip üyelerinin gönüllülüğüne bağlı olarak ürünün geliştirilmeye devam edilmesine karar verildi. 
 
 -**Diğer Notlar**: 
-- [Trello Board](https://trello.com/b/wFbNPE6k/toplant%C4%B1-notlar%C4%B1)
+- [Trello Board]()
 
 
 
