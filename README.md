@@ -170,18 +170,14 @@ Sprint Review katılımcıları:
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Panoda, story taskları; YapılacakSayfalar, Yapılacak Teknik İşlemler, Devam ediyor ve Tamamlandı şeklinde düzenlenmiştir. 
 
 - **Daily Scrum**: Daily Scrum toplantılarının Google Meet ve Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: 
-- [Sprint 3 Daily Scrum Chats]()
+- [Sprint 3 Daily Scrum Chats](https://docs.google.com/document/d/1Qp4W73zpPUWgUi1WIvuniDtf-OIIbjADezdQsAge2Lk/edit)
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://i.hizliresim.com/n3ltstv.png) 
+![Backlog 1](https://www.hizliresim.com/s8f0c9n) 
 
-![Backlog 2](https://i.hizliresim.com/monlql1.png)
+![Backlog 2](https://www.hizliresim.com/m7y32z3)
 
-![Backlog 3](https://i.hizliresim.com/qi7v611.png)
-
-![Backlog 4](https://i.hizliresim.com/ehk7esb.png)
-
-
+![Backlog 3](https://www.hizliresim.com/8rpwe78)
 
 
 - **Ürün Durumu**:  Ekran görüntüleri:
