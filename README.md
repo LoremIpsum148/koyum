@@ -159,4 +159,58 @@ Sprint Review katılımcıları:
 
 # Sprint 3
 
+- **Sprint Notları**: User Story'ler product 3. Sprint backlog'ların içine yazılmıştır. Product backlog panosundan kartlara tıklandığında hikayelerin detayları okunabilir.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 140 Puan
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 1.sprintte 100 puan, 2.sprintte 140 puan, 3.sprintte 140 puan tamamlandı.
+
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+
+Story'ler yapılacak işlere (task'lere) bölünmüştür. Panoda, story taskları; YapılacakSayfalar, Yapılacak Teknik İşlemler, Devam ediyor ve Tamamlandı şeklinde düzenlenmiştir. 
+
+- **Daily Scrum**: Daily Scrum toplantılarının Google Meet ve Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: 
+- [Sprint 3 Daily Scrum Chats]()
+
+- **Sprint board update**: Sprint board screenshotları: 
+![Backlog 1](https://i.hizliresim.com/n3ltstv.png) 
+
+![Backlog 2](https://i.hizliresim.com/monlql1.png)
+
+![Backlog 3](https://i.hizliresim.com/qi7v611.png)
+
+![Backlog 4](https://i.hizliresim.com/ehk7esb.png)
+
+
+
+
+- **Ürün Durumu**:  Ekran görüntüleri:
+
+  ![Screenshot 1](https://i.hizliresim.com/lxmc0zn.jpeg)
+  
+  ![Screenshot 2](https://i.hizliresim.com/38k76d2.jfif)
+  
+  ![Screenshot 3](https://i.hizliresim.com/tezlkci.jfif)
+
+- **Sprint Review**: 
+Alınan kararlar: 3. sprintin ilk haftasına kadar ürünün sayfalarının tasarımı tamamlanacak, son haftasında ise uygulama tüm özellikleriyle tamamlanacaktır. 
+
+
+Sprint Review katılımcıları: 
+- Defne Erkan
+- Mert A. Yılmaz
+- Güray Kaleli 
+- İpek Özbek
+- Serhat Çeker 
+
+- **Sprint Retrospective:**
+  - Kullanıcı datalarının class'ları oluşturuldu.
+  - Görev dağılımları başarılı bir şekilde gerçekleştirildi.
+  - Bir sonraki sprintte daha sık toplantı yapılacaktır. 
+
+-**Diğer Notlar**: 
+- [Trello Board](https://trello.com/b/wFbNPE6k/toplant%C4%B1-notlar%C4%B1)
+
+
+
 ---
