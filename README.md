@@ -171,7 +171,6 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Panoda, story tasklar
 
 - **3. Sprint Burndown Chart**: 
 - ![Burndown Chart](https://i.hizliresim.com/3nvdb9u.jpg)
-
 - **Daily Scrum**: Daily Scrum toplantılarının Google Meet ve Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: 
 - [Sprint 3 Daily Scrum Chats](https://docs.google.com/document/d/1Qp4W73zpPUWgUi1WIvuniDtf-OIIbjADezdQsAge2Lk/edit?usp=sharing)
 
