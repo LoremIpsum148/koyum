@@ -1,16 +1,22 @@
 // ignore: file_names
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:koyum/Consumer/consumer.dart';
 import 'package:koyum/LoginAndSign/login.dart';
 import 'package:koyum/LoginAndSign/signin_farmer.dart';
+import 'Farmer/profil.dart';
 import 'LoginAndSign/kayit.dart';
+import 'package:koyum/discover.dart';
 
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(LogUp());
 }
 
 class LogUp extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -35,6 +41,8 @@ class logUp extends StatefulWidget {
 
 class _logUpState extends State<logUp> {
   // This widget is the root of your application.
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -111,7 +119,7 @@ class _logUpState extends State<logUp> {
                 child: TextButton(
                   onPressed: () {
 
-                    //Navigator.push(context, MaterialPageRoute(builder: (context) => signinFarmer()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => Discover()));
 
                   },
                   child: const Text(

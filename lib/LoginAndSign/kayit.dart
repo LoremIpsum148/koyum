@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:koyum/Consumer/consumer.dart' show consumer;
 import 'package:koyum/Farmer/farmer.dart';
 import 'package:koyum/LoginAndSign/signin_farmer.dart';
+import 'package:koyum/signin_farmer.dart';
+import 'package:koyum/SignInConsumer.dart';
 
 /*void main() {
   runApp(kayit());
@@ -69,9 +71,13 @@ class _kayitState extends State<kayit> {
                     ),
                     FlatButton(
                       onPressed: () {
-
-                        Navigator.pushReplacement(context, MaterialPageRoute(builder:(context) => signinFarmer()));
-
+                        ontop:
+                        () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => signin_Farmer()));
+                        };
                       },
                       child: Container(
                         margin: EdgeInsets.only(
@@ -132,12 +138,15 @@ class _kayitState extends State<kayit> {
                     ),
                     FlatButton(
                       onPressed: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => consumer(),
-                          ),
-                        );
+                        ontop:
+                        () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => SignInConsumer(),
+                            ),
+                          );
+                        };
                       },
                       child: Container(
                         margin: EdgeInsets.only(
@@ -201,4 +210,6 @@ class _kayitState extends State<kayit> {
       ),
     );
   }
+
+  signin_Farmer() {}
 }
