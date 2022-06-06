@@ -1,13 +1,45 @@
 //import 'package:flutter/cupertino.dart';
 // ignore_for_file: deprecated_member_use
 
-import 'package:flutter/material.dart';
+import 'dart:collection';
 
-void main() {
+import 'package:firebase_database/firebase_database.dart';
+import 'package:flutter/material.dart';
+import 'package:koyum/Farmer/profil.dart';
+
+/*void main() {
   runApp(consumer());
+}*/
+
+class consumer extends StatefulWidget {
+  @override
+  State<consumer> createState() => _consumerState();
 }
 
-class consumer extends StatelessWidget {
+class _consumerState extends State<consumer> {
+
+  var refConsumer = FirebaseDatabase.instance.ref().child("consumer_tablo");
+
+  Future<void> consumerEkle() async{
+    var bilgi = HashMap<String,dynamic>();
+    bilgi["first_name"] = "Ahmet";
+    bilgi["last_name"] = "Flutter";
+    bilgi["age"] = 30;
+
+    refConsumer.push().set(bilgi);
+
+  }
+
+  @override
+  void initState(){
+
+    super.initState();
+
+    consumerEkle();
+
+  }
+
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -41,32 +73,30 @@ class consumer extends StatelessWidget {
                   direction: Axis.horizontal,
                   children: [
                     Container(
-                      padding: EdgeInsets.only(top: 100, bottom: 70),
+                      padding: EdgeInsets.only(top: 60, bottom: 70),
                       decoration: BoxDecoration(
                           image: DecorationImage(
                               image: AssetImage('assets/images/koyum.png'))),
                     ),
                     Container(
-                      child: Padding(
-                        padding: const EdgeInsets.only(
-                            left: 50, right: 80.0, bottom: 20),
-                        child: Text(
-                          'Hoş Geldin İpek!',
+                      padding: const EdgeInsets.only(top: 10, bottom: 25, left: 50),
+                      child: Text('Hoş Geldin İpek!',
                           style: TextStyle(
                               fontFamily: 'Quicksand',
                               fontWeight: FontWeight.w600,
-                              fontSize: 18,
-                              color: Color.fromARGB(255, 4, 46, 5)),
-                          softWrap: true,
-                          textAlign: TextAlign.left,
-                        ),
-                      ),
+                              fontSize: 20,
+                              color: Color.fromARGB(255, 4, 46, 5))),
                     ),
                     FlatButton(
-                      onPressed: () {},
+                      onPressed: () {
+
+
+
+
+                      },
                       child: Container(
                         margin: EdgeInsets.only(
-                            left: 20, right: 5, top: 5, bottom: 10),
+                            left: 20, right: 5, top: 5, bottom: 30),
                         width: 300,
                         height: 180,
                         child: Row(
@@ -81,7 +111,7 @@ class consumer extends StatelessWidget {
                               width: 300,
                               height: 55,
                               child: Text(
-                                'Ekosistemdeki Diğer Çiftçiler',
+                                'Ekosistemi Keşfet',
                                 style: TextStyle(
                                     fontSize: 18,
                                     color: Colors.white,
@@ -122,7 +152,14 @@ class consumer extends StatelessWidget {
                       ),
                     ),
                     FlatButton(
-                      onPressed: () {},
+                      onPressed: () {
+
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => profil()));
+                        setState(){
+
+                        }
+
+                      },
                       child: Container(
                         margin: EdgeInsets.only(
                             left: 20, right: 5, top: 20, bottom: 20),
@@ -140,7 +177,7 @@ class consumer extends StatelessWidget {
                               width: 300,
                               height: 55,
                               child: Text(
-                                'Profilini Oluştur',
+                                'Çiftçimin Profili',
                                 style: TextStyle(
                                     fontSize: 18,
                                     color: Colors.white,
@@ -184,7 +221,7 @@ class consumer extends StatelessWidget {
                       onPressed: () {},
                       child: Container(
                         margin: EdgeInsets.only(
-                            left: 20, right: 5, top: 5, bottom: 40),
+                            left: 20, right: 5, top: 5, bottom: 30),
                         width: 300,
                         height: 180,
                         child: Row(
@@ -199,7 +236,7 @@ class consumer extends StatelessWidget {
                               width: 300,
                               height: 55,
                               child: Text(
-                                'İlan Oluştur',
+                                'Ürününü Seç',
                                 style: TextStyle(
                                     fontSize: 18,
                                     color: Colors.white,
@@ -232,7 +269,7 @@ class consumer extends StatelessWidget {
                               )
                             ],
                             image: DecorationImage(
-                                image: AssetImage('assets/images/ilan.jpg'),
+                                image: AssetImage('assets/images/portakal.jpg'),
                                 fit: BoxFit.cover),
                             color: Color.fromARGB(255, 221, 73, 14),
                             borderRadius:

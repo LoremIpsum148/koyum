@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "281929860292",
+    "firebase_url": "https://koyum-64efd-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "koyum-64efd",
+    "storage_bucket": "koyum-64efd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281929860292:android:06a08c06b417ab8bd27591",
+        "android_client_info": {
+          "package_name": "com.loremipsum.koyum.koyum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281929860292-mm6lscsei3d1mh1lml9eipc6ngch6jl2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKWd4LRptqbt8fcIFCSFlGaU6-j09aR5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281929860292-mm6lscsei3d1mh1lml9eipc6ngch6jl2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "281929860292-5r213s9lqntsj89kggpvvtrgqrtr1k3m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.loremipsum.koyum"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

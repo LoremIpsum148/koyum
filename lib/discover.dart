@@ -2,6 +2,7 @@
 // ignore_for_file: deprecated_member_use
 
 import 'package:flutter/material.dart';
+import 'package:koyum/kayit.dart';
 
 void main() {
   runApp(Discover());
@@ -222,7 +223,7 @@ class Discover extends StatelessWidget {
                             style: ElevatedButton.styleFrom(
                                 primary: Color.fromARGB(255, 221, 73, 14)),
                             onPressed: () {
-                              //Navigator.push(context, MaterialPageRoute(builder:(context) => login()));
+                              Navigator.push(context, MaterialPageRoute(builder:(context) => kayit()));
                             },
                             child: const Text('Ekosisteme Katıl',
                                 style: TextStyle(color: Colors.white),
